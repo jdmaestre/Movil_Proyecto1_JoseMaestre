@@ -1,0 +1,224 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.uninorte.jdmaestre.calculadoradepromedios.TabTest$PlaceholderFragment"
+    android:id="@+id/M1C2">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Materia1"
+        android:id="@+id/M1_Titulo_TextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/M1C1_EditText"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/M1_Titulo_TextView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="@string/nota_inexistente" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Corte 1"
+        android:id="@+id/M1C1_TextView"
+        android:layout_alignBottom="@+id/M1C1_EditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/M1C2_EditText"
+        android:layout_below="@+id/M1C1_EditText"
+        android:layout_alignLeft="@+id/M1C1_EditText"
+        android:layout_alignStart="@+id/M1C1_EditText"
+        android:hint="@string/nota_inexistente" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Corte 2"
+        android:id="@+id/M1C2_TextView"
+        android:layout_toEndOf="@+id/dsdsd"
+        android:layout_alignBottom="@+id/M1C2_EditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/M1C3_EditText"
+        android:layout_below="@+id/M1C2_EditText"
+        android:layout_alignLeft="@+id/M1C2_EditText"
+        android:layout_alignStart="@+id/M1C2_EditText"
+        android:hint="@string/nota_inexistente" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Corte 3"
+        android:id="@+id/M1C3_TextView"
+        android:layout_alignBottom="@+id/M1C3_EditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/M1C4_EditText"
+        android:layout_alignStart="@+id/M1C1_EditText"
+        android:layout_below="@+id/M1C3_TextView"
+        android:layout_alignLeft="@+id/M1C2_EditText"
+        android:hint="@string/nota_inexistente" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Corte 4"
+        android:id="@+id/M1C4_TextView"
+        android:layout_toEndOf="@+id/dsdsd"
+        android:layout_alignBottom="@+id/M1C4_EditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/M1C5_EditText"
+        android:layout_below="@+id/M1C4_TextView"
+        android:layout_alignLeft="@+id/M1C4_EditText"
+        android:layout_alignStart="@+id/M1C4_EditText"
+        android:hint="@string/nota_inexistente" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Corte 5"
+        android:id="@+id/M1C5_TextView"
+        android:layout_alignBottom="@+id/M1C5_EditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/M1C6_EditText"
+        android:layout_alignStart="@+id/M1C1_EditText"
+        android:layout_below="@+id/M1C5_TextView"
+        android:layout_alignLeft="@+id/M1C4_EditText"
+        android:hint="@string/nota_inexistente" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Corte 6"
+        android:id="@+id/M1C6_TextView"
+        android:layout_toEndOf="@+id/dsdsd"
+        android:layout_alignBottom="@+id/M1C6_EditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nota Necesaria"
+        android:id="@+id/textView21"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/M1C6_EditText"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Nota Necesaria"
+        android:id="@+id/M1_NotaNecesaria_TV"
+        android:layout_below="@+id/textView21"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expectativa"
+        android:id="@+id/textView23"
+        android:layout_toEndOf="@+id/M1C6_TextView"
+        android:layout_toStartOf="@+id/M1C6_EditText"
+        android:gravity="center"
+        android:layout_below="@+id/M1_Expectativa"
+        android:layout_alignLeft="@+id/M1_Expectativa"
+        android:layout_alignStart="@+id/M1_Expectativa" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/M1_Expectativa"
+        android:layout_below="@+id/M1_NotaNecesaria_TV"
+        android:layout_toLeftOf="@+id/M1C6_EditText"
+        android:layout_toStartOf="@+id/M1C6_EditText"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/M1_Deseo"
+        android:layout_alignTop="@+id/M1_Expectativa"
+        android:layout_toRightOf="@+id/textView21"
+        android:layout_toEndOf="@+id/textView21"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deseo"
+        android:id="@+id/textView5"
+        android:layout_toEndOf="@+id/M1C6_TextView"
+        android:layout_toStartOf="@+id/M1C6_EditText"
+        android:layout_below="@+id/M1_Deseo"
+        android:layout_alignLeft="@+id/M1_Deseo"
+        android:layout_alignStart="@+id/M1_Deseo"
+        android:layout_alignRight="@+id/M1_Deseo"
+        android:layout_alignEnd="@+id/M1_Deseo"
+        android:gravity="center"
+        android:phoneNumber="false" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/M1_Button"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textView23"
+        android:layout_toEndOf="@+id/textView23" />
+
+</RelativeLayout>
